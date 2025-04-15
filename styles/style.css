@@ -226,7 +226,7 @@ article {
   grid-template-columns: 334px 1fr;
 }
 
-.about_logo {
+.about__logo {
   background-color: black;
   z-index: -1;
   border-radius: 50%;
@@ -235,36 +235,36 @@ article {
   margin-top: 35px;
 }
 
-.about_logo_img {
+.about__logo-image {
   width: 148px;
   margin-top: 64px;
   margin-left: 47px;
 }
 
-.about_description {
+.about__description {
   margin-top: 139px;
   margin-left: -22px;
 }
 
-.about_title {
+.about__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
 }
 
-.about_text {
+.about__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
 
-.first_part {
+.first__part {
   margin-top: 104px;
   max-width: 688px;
 }
 
-.second_part {
+.second__part {
   margin-top: 24px;
   max-width: 693px;
 }
@@ -281,27 +281,29 @@ article {
   line-height: 24.3px;
 }
 
-.footer_list {
+.footer__menu-list {
   list-style: none;
-}
-
-.address_footer {
-  max-width: 264.57px;
-  justify-self: center;
-}
-
-.menu_footer {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-left: -23px;
 }
 
-.list_gap {
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__address {
+  max-width: 264.57px;
+  justify-self: center;
+  list-style: none;
+}
+
+.footer__menu-list-item {
   margin-bottom: -3.5px;
 }
 
-.socials {
+.footer__social-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
